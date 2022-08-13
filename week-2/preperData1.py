@@ -18,8 +18,7 @@ with open('formal.txt','r',encoding='utf-8-sig') as txt_file:
           dictionary = {
             "orginal": orginal ,
             "normal": normal,
-            "tokens": tokens,
-          } 
+            "tokens": tokens,}
           json.dump(dictionary, file, indent = 2, sort_keys = False,ensure_ascii=False)
           file.write('\n')
           
